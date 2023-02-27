@@ -1,0 +1,49 @@
+.card {
+  width: 39.1rem;
+  height: 54.2rem;
+  position: relative;
+
+  .img {
+    width: 100%;
+  }
+  .card-content {
+    cursor: pointer;
+    position: absolute;
+    bottom: -1rem;
+    background-color: #fff;
+    width: 105%;
+    padding: 2rem 4rem;
+
+    -webkit-clip-path: polygon(10% 0, 100% 28%, 100% 100%, 0% 100%);
+    clip-path: polygon(10% 0, 100% 28%, 100% 100%, 0% 100%);
+
+    .card-title {
+      font-weight: 700;
+      font-size: 2.45424rem;
+      line-height: 3.3rem;
+      margin: 1rem 0;
+    }
+
+    .card-description {
+      font-weight: 400;
+      font-size: 1.84068rem;
+      line-height: 2.2rem;
+    }
+    .btn {
+      background: #da2348;
+      border-radius: 1.5rem;
+      padding: 1rem 1.6rem;
+      font-size: 1.8rem;
+      line-height: 2.8rem;
+      color: #fdfdfd;
+      border: none;
+      margin-top: 1.5rem;
+      width: 100%;
+      cursor: pointer;
+      transition: all 0.3s;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
