@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Project-X-frontend-/static/css/main.073612d1.css",
+    "main.js": "/Project-X-frontend-/static/js/main.06dba4c1.js",
+    "index.html": "/Project-X-frontend-/index.html",
+    "static/media/logo.svg": "/Project-X-frontend-/static/media/logo.345d26ab9c9ee376806046b7ea199adf.svg",
+    "main.073612d1.css.map": "/Project-X-frontend-/static/css/main.073612d1.css.map",
+    "main.06dba4c1.js.map": "/Project-X-frontend-/static/js/main.06dba4c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073612d1.css",
+    "static/js/main.06dba4c1.js"
+  ]
+}
